@@ -60,3 +60,7 @@ python view_pointcloud.py --results-dir "D:\M\Projects\KITTI-360_sample\Lidar-Pr
 ```
 
 Generated outputs, dataset files, model weights, and copied external toolkits are intentionally excluded from Git.
+
+
+## Updates
+- Switched to YOLOv8x for improved segmentation.
