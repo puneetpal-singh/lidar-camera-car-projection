@@ -2,6 +2,8 @@
 
 This project projects KITTI-360 LiDAR points into camera images, uses YOLO segmentation masks to isolate car points, exports colored point clouds, and evaluates detected car point clusters against 3D bounding boxes.
 
+It is a sensor-fusion project focused on the practical geometry between 2D instance segmentation and 3D LiDAR structure.
+
 ## What It Does
 
 - Loads KITTI-360 LiDAR frames, camera frames, and calibration files.
@@ -64,3 +66,7 @@ Generated outputs, dataset files, model weights, and copied external toolkits ar
 
 ## Updates
 - Switched to YOLOv8x for improved segmentation.
+
+## Skills Shown
+
+`Python` | `YOLOv8x-seg` | `KITTI-360` | `LiDAR Projection` | `Open3D` | `Camera Calibration` | `3D Bounding Boxes`
